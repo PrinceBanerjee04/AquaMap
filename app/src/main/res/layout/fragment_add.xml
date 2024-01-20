@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AddFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/shape3">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/logoHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingRight="150dp"
+                android:text="AquaMap"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/account_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/account" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/frame_8"
+            android:layout_width="354dp"
+            android:layout_height="276dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rc3"
+            android:elevation="4dp">
+
+            <RelativeLayout
+                android:id="@+id/frame_9"
+                android:layout_width="326dp"
+                android:layout_height="222dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rc2"
+                android:clipToOutline="true">
+
+                <ImageView
+                    android:id="@+id/post_image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="123dp"
+                    android:layout_marginTop="77dp"
+                    android:background="@drawable/add1" />
+
+                <TextView
+                    android:id="@+id/add_your_im"
+                    android:layout_width="170dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="89dp"
+                    android:layout_marginTop="167dp"
+                    android:gravity="top"
+                    android:text="Add your image here"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frame_2"
+            android:layout_width="354dp"
+            android:layout_height="310dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rc3"
+            android:elevation="4dp">
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="326dp"
+                android:layout_height="271dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/rc2" />
+
+            <LinearLayout
+                android:id="@+id/frame_10"
+                android:layout_width="305dp"
+                android:layout_height="191dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/rounder_corner"
+                android:clipToOutline="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/problem_tit"
+                    android:layout_width="135dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="top"
+                    android:text="Problem Title"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/problem_title"
+                    android:layout_width="267dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:id="@+id/problem_desc"
+                    android:layout_width="170dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:gravity="top"
+                    android:text="Problem Description"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/problem_des"
+                    android:layout_width="267dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/publish_button"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="159dp"
+                android:layout_marginBottom="29dp"
+                android:backgroundTint="#F8FD0C"
+                android:text="Post->"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Reset"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="23dp"
+                android:layout_marginBottom="26dp"
+                android:backgroundTint="#6A6A6A"
+                android:text="Reset"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <!--        <EditText-->
+<!--            android:id="@+id/post_title"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="66dp"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Problem Title"-->
+<!--            android:inputType="text" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/post_image"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="278dp"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:src="@drawable/addimage" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/post_des"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="63dp"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Problem Description"-->
+<!--            android:inputType="text" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/publish_button"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="68dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginRight="5dp"-->
+<!--            android:text="Upload"-->
+<!--            android:textSize="20sp" />-->
+
+
+    </LinearLayout>
+</FrameLayout>

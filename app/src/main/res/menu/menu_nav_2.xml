@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/submitted_problems"
+        android:icon="@drawable/submitted"
+        android:title="Submitted"/>
+    <item
+        android:id="@+id/executed_problems"
+        android:icon="@drawable/executed"
+        android:title="Executed"/>
+</menu>

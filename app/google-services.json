@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "575085493393",
+    "project_id": "waterwatch-1fe39",
+    "storage_bucket": "waterwatch-1fe39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575085493393:android:03d159e285f8706c745330",
+        "android_client_info": {
+          "package_name": "com.example.waterwatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrLAZ8Dq2d02VnpUAvuwI6Si9QWYx9eY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

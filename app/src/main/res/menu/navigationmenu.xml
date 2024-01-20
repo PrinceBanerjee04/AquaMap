@@ -1,0 +1,13 @@
+<!-- navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_item1"
+        android:title="View Profile" />
+    <item
+        android:id="@+id/nav_item2"
+        android:title="Problem Section" />
+    <item
+        android:id="@+id/nav_item3"
+        android:title="Logout" />
+    <!-- Add more items as needed -->
+</menu>
