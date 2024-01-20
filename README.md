@@ -8,6 +8,9 @@ ARCHITECTURAL DIAGRAM :
 
 SCREENSHOTS OF THE APP :
 
-![image](https://github.com/PrinceBanerjee04/AquaMap/assets/130071684/5e5d78fc-51c2-4ebc-911d-57e615f08491)
-![image](https://github.com/PrinceBanerjee04/AquaMap/assets/130071684/b722a83d-028c-4df1-a273-3de482b68088)
-![image](https://github.com/PrinceBanerjee04/AquaMap/assets/130071684/c3c36aa1-5345-4a21-8f55-dcdc331fe73f)
+<p align="center">
+  <img src="https://github.com/PrinceBanerjee04/AquaMap/assets/130071684/5e5d78fc-51c2-4ebc-911d-57e615f08491" width="400" />
+  <img src="https://github.com/PrinceBanerjee04/AquaMap/assets/130071684/ad49de51-03e4-480f-89d8-16c0569062d2" width="400" />
+  <img src="https://github.com/PrinceBanerjee04/AquaMap/assets/130071684/c3c36aa1-5345-4a21-8f55-dcdc331fe73f" width="400" />
+</p>
+
